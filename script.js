@@ -1,4 +1,6 @@
 import 'animate.css';
+
+// Newsletter form submit handler
 document.getElementById('newsletter-form').addEventListener('submit', function(e) {
 e.preventDefault();
 const fname = e.target.fname.value;
@@ -10,3 +12,5 @@ console.log(`Name: ${fname}, ${lname}, Email: ${email}`);
 alert('Thank you for subscribing!');
 e.target.reset();
 });
+
+// Mobile menu toggle handler
